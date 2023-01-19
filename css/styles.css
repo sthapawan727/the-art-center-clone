@@ -1,0 +1,39 @@
+
+body {
+    font-family: raisonnedemibold, sans-serif;
+}
+
+/* Buttons */
+
+.small-button {
+    background: transparent;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.small-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+/* Navbar  */
+
+#navbar {
+    padding: 5% 5% 0;
+}
+
+.menu {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
