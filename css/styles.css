@@ -27,13 +27,25 @@ body {
     border-color: black;
 }
 
+/* Background Image */
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 /* Navbar  */
 
 #navbar {
     padding: 5% 5% 0;
+    position: relative;
+    z-index: 1;
 }
 
 .menu {
     font-size: 0.8rem;
     letter-spacing: 2px;
 }
+
