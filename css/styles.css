@@ -1,9 +1,10 @@
 
 body {
     font-family: raisonnedemibold, sans-serif;
+    background-color: #f1eee8;
 }
 
-/* Buttons */
+/* Buttons */ 
 
 .small-button {
     background: transparent;
@@ -17,7 +18,7 @@ body {
     font-weight: 400;
     text-align: center;
     transition: 0.5s;
-
+    cursor: pointer;
 }
 
 .small-button:hover {
@@ -26,6 +27,51 @@ body {
     background-color: black;
     border-color: black;
 }
+
+.big-button {
+    background: black;
+    text-transform: uppercase;
+    padding: 1.3rem 2.2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.big-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);
+    border-color: black;
+}
+
+.no-bg-big-button {
+    text-transform: uppercase;
+    padding: 1.3rem 2.2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.no-bg-big-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);
+    border-color: black;
+}
+
+
 
 /* Background Image */
 
@@ -36,10 +82,11 @@ body {
     width: 100%;
 }
 
+
 /* Navbar  */
 
 #navbar {
-    padding: 5% 5% 0;
+    padding: 1% 5% 1%;
     position: relative;
     z-index: 1;
 }
@@ -49,3 +96,119 @@ body {
     letter-spacing: 2px;
 }
 
+
+
+/* Hero Section  */
+#hero {
+    padding: 2% 7% 10%;
+}
+
+#hero .col-12 h1 {
+    font-size: 5rem;
+    padding: 1% 20%;
+    margin: 0 0 4%;
+}
+
+#hero .col-12 p {
+    margin: 13% 0 10%;
+    letter-spacing: 2px;
+}
+
+
+/* About Us Section  */
+#about {
+    padding: 2% 7% 10%;  
+}
+
+#about .col-12 h1 {
+    font-size: 3rem;
+    padding: 3% 16%;
+}
+
+
+/* Programs Secton  */
+#program {
+    padding: 2% 7% 10%;   
+}
+
+#program .col-12 h1 {
+    font-size: 5rem;
+    padding: 1% 0;
+}
+
+#program .col-12 p {
+    font-size: 2rem;
+    padding: 1% 25%;
+}
+
+#program .animation-image-div {
+    margin: 8% 0;
+}
+
+#program .animation-image-div h1 {
+    font-size: 3rem;
+    margin: 0 0 8%;
+}
+
+
+#program .animation-image-div .all-day-art {
+    padding: 0 20%;
+}
+
+#program .animation-image-div .animation-image {
+    position: absolute;    
+    z-index: -1;
+    top: -20%;  
+    left: 17%;
+    width: 65%;
+    /* transform: rotate(5deg); */
+}
+
+
+/* Parties & Events Section  */
+#parties {
+    padding: 2% 7% 10%;   
+}
+
+#parties .col-12 h1 {
+    font-size: 4.5rem;
+    margin: 5% 0;
+}
+
+#parties .col-12 img {
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    top: -15%;
+    left: 31%;
+}
+
+/* Instagram Section  */
+#instagram {
+    padding: 2% 7% 10%;   
+}
+
+#instagram h1 {
+    font-size: 5rem;
+    padding: 2% 0 10%;
+}
+
+/* Footer Section  */
+footer {
+    padding: 8% 0 10%;   
+    background-color: black;
+    color: white;
+}
+
+footer .hello {
+    color: white;
+    margin:  1% 0 0 auto;
+    display: inline-block;
+}
+
+
+
+::selection {
+    background-color: #ea96a9;
+    color: #f1eee8;
+}
