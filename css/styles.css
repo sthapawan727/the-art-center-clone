@@ -200,15 +200,10 @@ footer {
     color: white;
 }
 
-footer .hello {
-    color: white;
-    margin:  1% 0 0 auto;
-    display: inline-block;
-}
-
-
-
 ::selection {
     background-color: #ea96a9;
     color: #f1eee8;
 }
+
+
+
